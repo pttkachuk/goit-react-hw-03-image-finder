@@ -17,5 +17,6 @@ export default ImageGalleryItem;
 
 ImageGalleryItem.propTypes = {
   index: PropTypes.number,
-  openModal: PropTypes.func,
+    openModal: PropTypes.func,
+  webformatURL: PropTypes.string,
 };
