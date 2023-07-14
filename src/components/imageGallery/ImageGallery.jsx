@@ -21,4 +21,11 @@ export default ImageGallery;
 
 ImageGallery.propTypes = {
     openModal: PropTypes.func,
+    images: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.number,
+            webformatURL: PropTypes.string,
+            index: PropTypes.number,
+        })
+    )
 };
