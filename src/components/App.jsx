@@ -2,8 +2,8 @@ import requestImg from 'Services/imageApi';
 import React, { Component } from 'react'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import SearchBar from './Search Bar/SearchBar';
-import ImageGallery from './Image Gallery/ImageGallery';
+import SearchBar from './searchBar/SearchBar';
+import ImageGallery from './imageGallery/ImageGallery';
 import Modal from './Modal/Modal';
 import Loader from './Loader/Loader';
 import Button from './Button/Button';
